@@ -1,0 +1,15 @@
+---
+message: "This node is using common data"
+is_ntp_server: false
+ntp::servers:
+  - timeserver01.example.com iburst
+  - timeserver02.example.com iburst
+  - timeserver03.example.com iburst
+ntp::restrict:
+  - default ignore
+  - -6 default ignore
+  - 127.0.0.1
+  - -6 ::1
+  - timeserver01.example.com.yaml nomodify notrap nopeer noquery
+  - timeserver02.example.com.yaml nomodify notrap nopeer noquery
+  - timeserver03.example.com.yaml nomodify notrap nopeer noquery

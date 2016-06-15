@@ -1,0 +1,15 @@
+{
+  "name": "jjpryor-my_base_profile",
+  "version": "0.1.0",
+  "author": "jjpryor",
+  "summary": null,
+  "license": "Apache-2.0",
+  "source": "",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+

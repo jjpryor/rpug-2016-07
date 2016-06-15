@@ -1,0 +1,48 @@
+---
+is_ntp_server: true
+ntp::servers:
+  - 152.7.254.50 prefer iburst
+# tick.usno.navy.mil Washington, DC
+  - 192.5.41.40 iburst
+# tick.gatech.edu, Atlanta, GA -U.S. Naval Observatory
+  - 130.207.244.240 iburst
+# Hurricane Electric, New York City, New York 
+  - 209.51.161.238 iburst
+# NCREN Stratum 2 ntp-rtp.ncren.net Raleigh
+  - 128.109.42.114  iburst
+# NCREN Stratum 2 ntp-fay.ncren.net Fayetteville
+  - 128.109.2.58 iburst
+# NCREN Stratum 2 ntp-chlt.ncren.net Charlotte
+  - 128.109.249.104 iburst
+ntp::restrict:
+  - -4 default ignore
+  - -6 default ignore
+  - -4 default limited kod nomodify notrap nopeer noquery notrap
+  - -6 default limited kod nomodify notrap nopeer noquery notrap
+  - 127.0.0.1
+  - -6 ::1
+# Our example.com strat 2 clock
+  - 192.168.1.50 nomodify nopeer notrap
+# tick.gatech.edu
+  - 130.207.244.240 nomodify nopeer notrap
+# HE
+  - 209.51.161.238 nomodify nopeer notrap
+# tick.usno.navy.mil
+  - 192.5.41.40 nomodify nopeer notrap
+# MCNC / NCREN
+  - 128.109.42.114 nomodify nopeer notrap
+  - 128.109.2.58 nomodify nopeer notrap
+  - 128.109.249.104 nomodify nopeer notrap
+# local networks can access this host's ntpd
+  - 192.168.1.0 mask 255.255.0.0 nomodify nopeer notrap noquery
+  - 10.0.0.0 mask 255.0.0.0 nomodify nopeer notrap noquery
+# restrict Peers
+  - 192.168.1.51
+  - 192.168.1.52
+# explicitly allow our monitoring server to access this host's ntpd
+  - 10.100.200.101 nomodify nopeer
+  - 10.100.200.102 nomodify nopeer
+ntp::peers:
+# Our peers (example.com local time servers)
+  - 192.168.1.51
+  - 192.168.1.52
