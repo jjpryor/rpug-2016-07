@@ -1,4 +1,4 @@
-# Raleigh Puppet User Group 2016-06
+# Raleigh Puppet User Group 2016-07
 + [My summary of notes on learning puppet: do_you_want_to_learn_puppet.md](do_you_want_to_learn_puppet.md)
 + [Some of my favorite_upstream_modules.md](favorite_upstream_modules.md)
 + my_base_profile/
