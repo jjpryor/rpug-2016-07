@@ -22,13 +22,7 @@ puppet.
 2. [Puppet Language: Visual Index](http://docs.puppetlabs.com/puppet/latest/reference/lang_visual_index.html) can help you find syntax elements when you can’t remember their names.
 3. [Language Basics](http://docs.puppetlabs.com/puppet/latest/reference/lang_summary.html)
 4. Install a Puppet client agent on your workstation to familiarize yourself with [`puppet` the command.](http://docs.puppetlabs.com/puppet/latest/reference/services_commands.html) See other section for download links.
-6. Chose a code-editor / IDE that has integrations with puppet-language syntax
-  + Vim: [vim-puppet](https://github.com/rodjek/vim-puppet)
-  + Emacs: [puppet-mode](https://github.com/lunaryorn/puppet-mode)
-  + Atom: [language-puppet](https://github.com/atom/language-puppet)
-  + Sublime Text: [SublimePuppet](https://github.com/russCloak/SublimePuppet)
-  + Visual Studio: [Puppet Plugin](https://visualstudiogallery.msdn.microsoft.com/a517bc05-258e-4010-be95-71bef6a10d3a)
-  + NetBeans: [NetBeansPuppet](https://github.com/tropyx/NetBeansPuppet)
+6. Chose a code-editor / IDE that has integrations with puppet-language syntax. Find a [list on the front page of the Forge](https://forge.puppet.com/)
 7. Validate your code syntax and style-check your code
   + `puppet parser validate init.pp` will run the parser and check to see if your syntax is correct
   + Install the `puppet-lint` and run `puppet-lint init.pp` to check/enforce a coding style
