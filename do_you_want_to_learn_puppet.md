@@ -45,12 +45,24 @@ The puppet-lint tool analyze your code and look for deviations from the Puppet L
 + [puppet-lint on github.com](https://github.com/rodjek/puppet-lint)
 + [puppet-lint at rubygems.org](https://rubygems.org/gems/puppet-lint/versions/1.1.0)
 
-Code that passes the style-check will not produce any output or errors. Run `puppet-lint --help` to see all the options for the checks. Also `puppet-lint --no-80chars-check` is probably desirable since 80 character limit is *nice* but almost impossible adhere to through out the code because of long paths/URLs.
+Code that passes the style-check will not produce any output or errors. Run `puppet-lint --help` to see all the options for the checks. Also `--no-140chars-check`  is probably desirable since 140 character limit is *nice* but may be almost impossible adhere to through out the code because of long paths/URLs.
 
+### File templating with Puppet
++ "Puppet Templates" – Sally Lehman, Auth0
+  - https://puppetconf2016.sched.org/event/6fjz/puppet-templates-sally-lehman-auth0
+  - Slides - http://www.slideshare.net/PuppetLabs/puppetconf-2016-puppet-templates-sally-lehman-auth0
+  - Video - https://www.youtube.com/watch?v=Tz6ngyPb2ew
+  - Quite a comprehensive look at various forms of content templating
 
 ### Do you have Puppet 3.x code and now need to move to 4.x?
 Several breaking changes were introduced in Puppet 4.0. If you previously used Puppet 3.x, your manifests will need to be updated for the new implementation. [This page lists the most important steps to update your manifests to be 4.x compatible.](https://docs.puppetlabs.com/puppet/latest/reference/experiments_future.html)
 
+This presentation by Rob Nelson at PuppetConf 2016 is a great resource for migrating to 4.x
++ "Enjoying the Journey from Puppet 3.x to Puppet 4.x" - Rob Nelson
+  - https://puppetconf2016.sched.org/event/6fj4/enjoying-the-journey-from-puppet-3x-to-4x-rob-nelson-att
+  - Slides - http://www.slideshare.net/PuppetLabs/puppetconf-2016-enjoying-the-journey-from-puppet-3x-to-4x-rob-nelson-att
+  - Video - https://www.youtube.com/watch?v=FWnj0xQOZN8
+  - He documents things in his talk that I experienced when I migrated from PE 3.8 to PE 2015.2.
 
 ## Installing Client agents
 ### Puppet Downloads (OpenSource and Not-Puppet Enterprise)
