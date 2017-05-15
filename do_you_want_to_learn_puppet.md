@@ -59,10 +59,10 @@ Code that passes the style-check will not produce any output or errors. Run `pup
 
 ### 'Roles and Profiles' design pattern
 The Roles and Profiles design pattern is how you layer two levels of abstraction on your code so that you can build practical, business-specific interfaces to the configuration you care most about. A better interface makes hierarchical data easier to use, makes system configurations easier to read, and makes refactoring easier.
-https://docs.puppet.com/pe/2017.1/r_n_p_intro.html
-https://docs.puppet.com/pe/2017.1/r_n_p_full_example.html
-[Sides: Puppet Best Practices: Roles & Profiles – Gary Larizza at PuppetConf 2016](https://www.slideshare.net/PuppetLabs/puppetconf-2016-puppet-best-practices-roles-profiles-gary-larizza-puppet)
-[Video: Puppet Best Practices: Roles & Profiles – Gary Larizza at PuppetConf 2016 ](https://www.youtube.com/watch?v=RYMNmfM6UHw)
++ [Roles and profiles: Introduction](https://docs.puppet.com/pe/2017.1/r_n_p_intro.html)
++ [Roles and profiles: A complete example](https://docs.puppet.com/pe/2017.1/r_n_p_full_example.html)
++ [Slides: Puppet Best Practices: Roles and Profiles – Gary Larizza at PuppetConf 2016](https://www.slideshare.net/PuppetLabs/puppetconf-2016-puppet-best-practices-roles-profiles-gary-larizza-puppet)
++ [Video: Puppet Best Practices: Roles and Profiles – Gary Larizza at PuppetConf 2016 ](https://www.youtube.com/watch?v=RYMNmfM6UHw)
 
 
 ### Do you have Puppet 3.x code and now need to move to 4.x?
