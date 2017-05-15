@@ -81,6 +81,13 @@ Also this presentation by Rob Nelson at PuppetConf 2016 is a great resource for 
   - Video - https://www.youtube.com/watch?v=FWnj0xQOZN8
   - He documents things in his talk that I experienced when I migrated from PE 3.8 to PE 2015.2.
 
+## Getting Help via the community
++ [Puppet community Slack](https://puppet.com/blog/welcome-puppet-community-slack)
++ [Questions - Ask Puppet: Puppet DevOps Q&amp;A Community](https://ask.puppet.com/questions/)
++ [Puppet Users email list](https://groups.google.com/forum/#!forum/puppet-users)
++ [Find and/or create a local Puppet User Group](https://puppet.com/community/user-groups)
+
+
 ## Installing Client agents
 ### Puppet Downloads (OpenSource and Not-Puppet Enterprise)
 Here are the links to the opensource downloads.
@@ -99,9 +106,9 @@ You should just be able to install the package-archive with your OS's package in
 
 ## Links to general puppet video resources
 ### The PuppetConf videos have plenty of great presentations on a very wide variety of Sysadmin/DevOps/CfgMgmt topic.
-[2014 PuppetConf videos](https://puppetlabs.com/puppetconf-2014-videos-and-presentations)
-
-[2015 PuppetConf videos](https://puppetlabs.com/puppetconf-2015-videos-and-presentations)
++ [2014 PuppetConf videos](https://puppetlabs.com/puppetconf-2014-videos-and-presentations)
++ [2015 PuppetConf videos](https://puppetlabs.com/puppetconf-2015-videos-and-presentations)
++ [2016 PuppetConf videos](https://www.youtube.com/playlist?list=PLV86BgbREluVjwwt-9UL8u2Uy8xnzpIqa)
 
 ### A look back at how Puppet changed between 0.24, 2.5, 2.6, 27, 3.x, 4.x
 [Puppet, After a Decade and Change](https://puppetlabs.com/presentations/puppet-after-decade-and-change)
