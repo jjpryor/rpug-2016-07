@@ -1,7 +1,7 @@
 # Do you want to learn Puppet?
 ### Disclaimer
-*This doc was originally structured and written from the point of view of
-*someone who already has purchased Puppet Enterprise. That said, there is 
+*This doc was originally structured and written from the point of view of*
+*someone who already has purchased Puppet Enterprise. That said, there is*
 *plenty here which applies to opensource puppet/hiera/puppetdb too.*
 
 Also note that while Puppet 4 is different and contains breaking changes to Puppet 3, *most (like 90%) of Puppet 3 is exactly the same in Puppet 4.*
@@ -49,12 +49,21 @@ The puppet-lint tool analyze your code and look for deviations from the Puppet L
 
 Code that passes the style-check will not produce any output or errors. Run `puppet-lint --help` to see all the options for the checks. Also `--no-140chars-check`  is probably desirable since 140 character limit is *nice* but may be almost impossible adhere to through out the code because of long paths/URLs.
 
-### File templating with Puppet
+### File templating with Puppet 3 and 4
 + "Puppet Templates" – Sally Lehman, Auth0
   - https://puppetconf2016.sched.org/event/6fjz/puppet-templates-sally-lehman-auth0
   - Slides - http://www.slideshare.net/PuppetLabs/puppetconf-2016-puppet-templates-sally-lehman-auth0
   - Video - https://www.youtube.com/watch?v=Tz6ngyPb2ew
   - Quite a comprehensive look at various forms of content templating
+
+
+### 'Roles and Profiles' design pattern
+The Roles and Profiles design pattern is how you layer two levels of abstraction on your code so that you can build practical, business-specific interfaces to the configuration you care most about. A better interface makes hierarchical data easier to use, makes system configurations easier to read, and makes refactoring easier.
+https://docs.puppet.com/pe/2017.1/r_n_p_intro.html
+https://docs.puppet.com/pe/2017.1/r_n_p_full_example.html
+[Sides: Puppet Best Practices: Roles & Profiles – Gary Larizza at PuppetConf 2016](https://www.slideshare.net/PuppetLabs/puppetconf-2016-puppet-best-practices-roles-profiles-gary-larizza-puppet)
+[Video: Puppet Best Practices: Roles & Profiles – Gary Larizza at PuppetConf 2016 ](https://www.youtube.com/watch?v=RYMNmfM6UHw)
+
 
 ### Do you have Puppet 3.x code and now need to move to 4.x?
 Several breaking changes were introduced in Puppet 4.0. If you previously used Puppet 3.x, your manifests will need to be updated for the new implementation. [The Puppet 4.0 release notes detail the breaking changes from puppet 3.x to puppet 4.0.](https://docs.puppet.com/puppet/4.0/release_notes.html) Reading all the other 4.x release notes in order is a must in order to get the full scope of changes and deprecations.
