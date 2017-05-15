@@ -55,9 +55,15 @@ Code that passes the style-check will not produce any output or errors. Run `pup
   - Quite a comprehensive look at various forms of content templating
 
 ### Do you have Puppet 3.x code and now need to move to 4.x?
-Several breaking changes were introduced in Puppet 4.0. If you previously used Puppet 3.x, your manifests will need to be updated for the new implementation. [This page lists the most important steps to update your manifests to be 4.x compatible.](https://docs.puppetlabs.com/puppet/latest/reference/experiments_future.html)
+Several breaking changes were introduced in Puppet 4.0. If you previously used Puppet 3.x, your manifests will need to be updated for the new implementation. [The Puppet 4.0 release notes detail the breaking changes from puppet 3.x to puppet 4.0.](https://docs.puppet.com/puppet/4.0/release_notes.html) Reading all the other 4.x release notes in order is a must in order to get the full scope of changes and deprecations.
 
-This presentation by Rob Nelson at PuppetConf 2016 is a great resource for migrating to 4.x
+If you are familiar with Puppet 3 and new to Puppet 4:
++ [Why you should upgrade to Puppet 4](https://docs.puppet.com/upgrade/)
++ [Puppet 4 language features](https://docs.puppet.com/puppet/4.6/reference/lang_updating_manifests.html)
++ [Puppet Inc.'s Puppet 4 optimized NTP module](https://forge.puppet.com//puppetlabs/ntp/6.0.0)
++ [How Puppet Inc. updated their NTP module to Puppet 4](https://puppet.com/blog/ntp-puppet-4-language-update)
+
+Also this presentation by Rob Nelson at PuppetConf 2016 is a great resource for migrating to 4.x
 + "Enjoying the Journey from Puppet 3.x to Puppet 4.x" - Rob Nelson
   - https://puppetconf2016.sched.org/event/6fj4/enjoying-the-journey-from-puppet-3x-to-4x-rob-nelson-att
   - Slides - http://www.slideshare.net/PuppetLabs/puppetconf-2016-enjoying-the-journey-from-puppet-3x-to-4x-rob-nelson-att
