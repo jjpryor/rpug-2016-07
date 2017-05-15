@@ -4,6 +4,8 @@
 *someone who already has purchased Puppet Enterprise. That said, there is 
 *plenty here which applies to opensource puppet/hiera/puppetdb too.*
 
+Also note that while Puppet 4 is different and contains breaking changes to Puppet 3, *most (like 90%) of Puppet 3 is exactly the same in Puppet 4.*
+
 ----
 
 ## Overview
